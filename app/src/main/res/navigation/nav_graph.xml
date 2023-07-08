@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/everythingNewsFragment">
+
+    <fragment
+        android:id="@+id/everythingNewsFragment"
+        android:name="com.example.newsapi.ui.fragments.everythingnews.EverythingNewsFragment"
+        android:label="fragment_everything_news"
+        tools:layout="@layout/fragment_everything_news" />
+    <fragment
+        android:id="@+id/topHeadlinesFragment"
+        android:name="com.example.newsapi.ui.fragments.topheadlinesnews.TopHeadlinesFragment"
+        android:label="fragment_top_headlines"
+        tools:layout="@layout/fragment_top_headlines" />
+    <fragment
+        android:id="@+id/sourcesNewsFragment"
+        android:name="com.example.newsapi.ui.fragments.sourcesnews.SourcesNewsFragment"
+        android:label="fragment_sources_news"
+        tools:layout="@layout/fragment_sources_news" />
+</navigation>
